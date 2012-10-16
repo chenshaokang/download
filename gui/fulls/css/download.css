@@ -1,0 +1,80 @@
+/* 
+    Document   : download
+    Created on : 2011-12-2, 0:14:43
+    Author     : Camel
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+body{
+    background: #f3f3f3;
+}
+
+.quickdown { 
+    margin-top: 20px;
+    display: block;
+    border: 1px;
+    border-style: solid;
+    background: white;
+}
+
+.quickdown .row{
+/*    margin-left: 0px;
+    margin-right: 20px;*/
+}
+
+.quickdown [class*="span"]{
+/*    margin-left: 0px;*/
+}
+
+.quickdown h3{
+    margin-left: 20px;
+    color: grey;
+}
+
+.quickdown p{
+    text-align: center;
+}
+
+.quickdown .title{
+    background-color: #f1f1f1;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: grey;
+    background-image: url(../img/dlbg.png);
+    background-repeat: repeat-x;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.quickdown .content{
+}
+
+.quickdown .col{
+    height: 230px;
+    padding-top: 40px;
+    padding-bottom:40px;
+}
+
+.col{
+    border-left: 1px solid #d7d7d7;
+/*    width: 298px;*/
+}
+
+.quickdown .tmark{
+    margin-bottom: 20px;
+}
+
+.quickdown .col img{
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
